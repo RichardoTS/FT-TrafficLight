@@ -1,11 +1,15 @@
 .TrafficLight{
     display: inline-block;
     background-color: black;    
+    position: relative;
+    
+   
 }
 .light{
     width: 100px;
     height: 100px;
     border-radius: 50%;
+    
 }
 .red{
     background-color: red;
@@ -14,6 +18,10 @@
 }.green{
     background-color: green;
 }
+.blur{
+    filter: blur(5px);
+}
+
 
 /* 
     You can write your own styles here...        
